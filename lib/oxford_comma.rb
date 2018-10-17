@@ -2,7 +2,7 @@ def oxford_comma(array)
   str = ""
 
   if array.size == 1
-    return array[1]
+    return array[0]
   end
 
   array.each_index do |x|
