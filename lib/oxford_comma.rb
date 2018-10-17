@@ -9,7 +9,7 @@ def oxford_comma(array)
     if x == array.length-1
       str << (" and " + array[x])
     else
-      str << (", " + array[x])
+      str << (array[x] + ", ")
     end
   end
   str
