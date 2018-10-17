@@ -7,7 +7,7 @@ def oxford_comma(array)
 
   array.each_index do |x|
     if x == array.length-1
-      str << (" and " + array[x])
+      str << ("and " + array[x])
     else
       str << (array[x] + ", ")
     end
